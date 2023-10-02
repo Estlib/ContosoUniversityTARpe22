@@ -1,8 +1,10 @@
 ﻿@model ContosoUniversity.Models.Department
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Delete";
 }
-<h1>Details</h1>
+<h2>Delete</h2>
+<p class="text-danger">@ViewData["ConcurrencyErrorMessage"]</p>
+<h3>Are you sure you want to del-yeet this?</h3>
 <div>
     <h4>Department</h4>
     <hr/>
@@ -32,8 +34,14 @@
             @Html.DisplayFor(model => model.Administrator.FullName)
         </dt>
     </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.DepartmentID">Edit this Department</a>
-    <a asp-action="Index">Back to List</a>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="DepartmentID"/>
+        <input type="hidden" asp-for="RowVersion"/>
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" />
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
+
 </div>

@@ -16,8 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = G:\Users\K\source\repos\ContosoUniversityTARpe21\clone tarpe22\ContosoUniversityTARpe22
 build_property._RazorSourceGeneratorDebug = 
 
+[G:/Users/K/source/repos/ContosoUniversityTARpe21/clone tarpe22/ContosoUniversityTARpe22/Views/Departments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Users/K/source/repos/ContosoUniversityTARpe21/clone tarpe22/ContosoUniversityTARpe22/Views/Departments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/Users/K/source/repos/ContosoUniversityTARpe21/clone tarpe22/ContosoUniversityTARpe22/Views/Departments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Users/K/source/repos/ContosoUniversityTARpe21/clone tarpe22/ContosoUniversityTARpe22/Views/Departments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/Users/K/source/repos/ContosoUniversityTARpe21/clone tarpe22/ContosoUniversityTARpe22/Views/Departments/Index.cshtml]
